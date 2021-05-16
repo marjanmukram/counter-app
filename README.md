@@ -1,3 +1,8 @@
+# This is a project for a counter app
+Get the requirement from 
+https://arnab-datta.github.io/counter-app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
