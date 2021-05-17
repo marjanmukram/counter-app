@@ -3,28 +3,8 @@ import ClearIcon from "@material-ui/icons/Clear";
 import AddCircleOutlineIcon from "@material-ui/icons/AddCircleOutline";
 import RemoveCircleOutlineIcon from "@material-ui/icons/RemoveCircleOutline";
 import { Button } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
 import DeleteIcon from "@material-ui/icons/Delete";
-
-const zero = makeStyles(() => ({
-  zButton: {
-    color: "white",
-    padding: "20px",
-    border: "3px solid black",
-    backgroundColor: "liteblue",
-    marginLeft: "200px"
-  }
-}));
-
-const plusMinusDelete = makeStyles(() => ({
-  pmdButton: {
-    color: "white",
-    padding: "20px",
-    border: "3px solid black",
-    backgroundColor: "litepink",
-    marginLeft: "20px"
-  }
-}));
+import { zero, plusMinusDelete } from "./counter.styles";
 
 export default function IconLabelButtons() {
   const zClasses = zero();
@@ -189,4 +169,3 @@ export default function IconLabelButtons() {
     </div>
   );
 }
-
