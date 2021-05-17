@@ -5,6 +5,7 @@ import RemoveCircleOutlineIcon from "@material-ui/icons/RemoveCircleOutline";
 import { Button } from "@material-ui/core";
 import DeleteIcon from "@material-ui/icons/Delete";
 import { zero, plusMinusDelete } from "./counter.styles";
+import ActionButton from "../ActionButton/ActionButton";
 
 export default function IconLabelButtons() {
   const zClasses = zero();
@@ -13,40 +14,28 @@ export default function IconLabelButtons() {
   return (
     <div>
       <div>
-        <Button
-          variant='contained'
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<ClearIcon />}
-        >
-          {" "}
-        </Button>
-        <Button
-          variant='contained'
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<DeleteIcon />}
-        >
-          {" "}
-        </Button>
+        />
       </div>
       <div>
-        <Button
-          DeleteOutlineSharpIcon
-          variant='contained'
+        <ActionButton
           color='primary'
           className={zClasses.zButton}
-        >
-          ZERO
-        </Button>
-        <Button
-          variant='contained'
+          text={"ZERO"}
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<AddCircleOutlineIcon />}
-        >
-          {" "}
-        </Button>
+        />
         <Button
           variant='contained'
           color='secondary'
@@ -65,106 +54,70 @@ export default function IconLabelButtons() {
         </Button>
       </div>
       <div>
-        <Button
-          DeleteOutlineSharpIcon
-          variant='contained'
+        <ActionButton
           color='primary'
           className={zClasses.zButton}
-        >
-          ZERO
-        </Button>
-        <Button
-          variant='contained'
+          text={"ZERO"}
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<AddCircleOutlineIcon />}
-        >
-          {" "}
-        </Button>
-        <Button
-          variant='contained'
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<RemoveCircleOutlineIcon />}
-        >
-          {" "}
-        </Button>
-        <Button
-          variant='contained'
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<DeleteIcon />}
-        >
-          {" "}
-        </Button>
+        />
       </div>
       <div>
-        <Button
-          DeleteOutlineSharpIcon
-          variant='contained'
+        <ActionButton
           color='primary'
           className={zClasses.zButton}
-        >
-          ZERO
-        </Button>
-        <Button
-          variant='contained'
+          text={"ZERO"}
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<AddCircleOutlineIcon />}
-        >
-          {" "}
-        </Button>
-        <Button
-          variant='contained'
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<RemoveCircleOutlineIcon />}
-        >
-          {" "}
-        </Button>
-        <Button
-          variant='contained'
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<DeleteIcon />}
-        >
-          {" "}
-        </Button>
+        />
       </div>
       <div>
-        <Button
-          DeleteOutlineSharpIcon
-          variant='contained'
+        <ActionButton
           color='primary'
           className={zClasses.zButton}
-        >
-          ZERO
-        </Button>
-        <Button
-          variant='contained'
+          text={"ZERO"}
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<AddCircleOutlineIcon />}
-        >
-          {" "}
-        </Button>
-        <Button
-          variant='contained'
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<RemoveCircleOutlineIcon />}
-        >
-          {" "}
-        </Button>
-        <Button
-          variant='contained'
+        />
+        <ActionButton
           color='secondary'
           className={pmdClasses.pmdButton}
           startIcon={<DeleteIcon />}
-        >
-          {" "}
-        </Button>
+        />
       </div>
     </div>
   );
